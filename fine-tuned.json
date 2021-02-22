@@ -8,6 +8,20 @@
     "syscalls": [
         {
             "names": [
+		        "capget",
+		        "capset",
+		        "chdir",
+		        "fchown",
+		        "fchmodat",
+		        "getdents64",
+		        "getppid",
+		        "newfstatat",
+		        "setgid",
+		        "setgroups",
+		        "setuid",
+		        "fstat",
+        		"fstatfs",
+		        "prctl",
                 "accept4",
                 "epoll_wait",
                 "pselect6",
