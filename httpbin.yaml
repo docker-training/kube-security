@@ -26,7 +26,7 @@ metadata:
 spec:
   serviceAccountName: httpbin
   containers:
-  - image: docker.io/kennethreitz/httpbin
+  - image: docker.io/mirantistraining/httpbin:1.0
     imagePullPolicy: IfNotPresent
     name: httpbin
     ports:
